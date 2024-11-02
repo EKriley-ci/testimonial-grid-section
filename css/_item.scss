@@ -1,0 +1,41 @@
+.item {
+    max-width: 400px;
+    padding: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.126);
+
+    &__person {
+        display: flex;
+        gap:1.2em;
+    }
+    &-bold {
+        font-size: 1.63rem;
+    }
+    &-transparent {
+        font-size: 1.27rem;
+    }
+}
+
+.item1,.item2,.item4 {
+    color: white;
+}
+
+.item2,.item5 {
+    background-color: white;
+}
+
+.item1 {
+    background: url(../images/bg-pattern-quotation.svg)  hsl(263, 55%, 52%) ;
+    background-repeat: no-repeat;
+    background-position: 94% 5px;
+    background-size: 90px;
+}
+.item2 {
+    background-color:  hsl(217, 19%, 35%);
+}
+.item4 {
+    background-color: hsl(219, 29%, 14%);
+}
